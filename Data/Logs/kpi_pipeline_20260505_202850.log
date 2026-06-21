@@ -1,0 +1,29 @@
+[2026-05-05 20:28:50] INFO     Starting KPI automation pipeline.
+[2026-05-05 20:28:50] INFO     Output directory: C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Data\Processed
+[2026-05-05 20:28:50] INFO     Exporting 'executive_summary' ...
+[2026-05-05 20:28:55] INFO       executive_summary             1 rows  →  executive_summary.csv
+[2026-05-05 20:28:55] INFO     Exporting 'monthly_revenue' ...
+[2026-05-05 20:28:58] INFO       monthly_revenue               1 rows  →  monthly_revenue.csv
+[2026-05-05 20:28:58] INFO     Exporting 'category_performance' ...
+[2026-05-05 20:29:01] INFO       category_performance          9 rows  →  category_performance.csv
+[2026-05-05 20:29:01] INFO     Exporting 'top_products' ...
+[2026-05-05 20:29:03] INFO       top_products                 10 rows  →  top_products.csv
+[2026-05-05 20:29:03] INFO     Exporting 'state_performance' ...
+[2026-05-05 20:29:06] INFO       state_performance            48 rows  →  state_performance.csv
+[2026-05-05 20:29:06] INFO     Exporting 'customer_segments' ...
+[2026-05-05 20:29:08] INFO       customer_segments             2 rows  →  customer_segments.csv
+[2026-05-05 20:29:08] INFO     
+─────────────────────────────────────────────────────────────────
+[2026-05-05 20:29:08] INFO       KPI PIPELINE — EXPORT SUMMARY
+[2026-05-05 20:29:08] INFO     ─────────────────────────────────────────────────────────────────
+[2026-05-05 20:29:08] INFO       KPI                        STATUS    ROWS    TIME (s)
+[2026-05-05 20:29:08] INFO     ─────────────────────────────────────────────────────────────────
+[2026-05-05 20:29:08] INFO       executive_summary          ✓ OK      1       5.432s
+[2026-05-05 20:29:08] INFO       monthly_revenue            ✓ OK      1       2.761s
+[2026-05-05 20:29:08] INFO       category_performance       ✓ OK      9       2.747s
+[2026-05-05 20:29:08] INFO       top_products               ✓ OK      10      1.884s
+[2026-05-05 20:29:08] INFO       state_performance          ✓ OK      48      2.984s
+[2026-05-05 20:29:08] INFO       customer_segments          ✓ OK      2       2.169s
+[2026-05-05 20:29:08] INFO     ─────────────────────────────────────────────────────────────────
+[2026-05-05 20:29:08] INFO       6 / 6 exports successful   |   total time: 17.99s
+[2026-05-05 20:29:08] INFO     ─────────────────────────────────────────────────────────────────

@@ -1,0 +1,14 @@
+[2026-05-05 21:42:47] INFO     Starting Executive Report Generation Pipeline.
+[2026-05-05 21:42:47] INFO     Loading data ...
+[2026-05-05 21:42:47] DEBUG    Loaded 'monthly_revenue'  (1 rows)
+[2026-05-05 21:42:47] DEBUG    Loaded 'category_performance'  (9 rows)
+[2026-05-05 21:42:47] DEBUG    Loaded 'state_performance'  (48 rows)
+[2026-05-05 21:42:47] DEBUG    Loaded 'top_products'  (10 rows)
+[2026-05-05 21:42:47] DEBUG    Loaded AI insights (4018 chars).
+[2026-05-05 21:42:47] INFO     Generating charts ...
+[2026-05-05 21:42:50] DEBUG    Chart saved → C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Reports\Final_Reports\charts\monthly_revenue.png
+[2026-05-05 21:42:50] DEBUG    Chart saved → C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Reports\Final_Reports\charts\category_performance.png
+[2026-05-05 21:42:51] DEBUG    Chart saved → C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Reports\Final_Reports\charts\state_performance.png
+[2026-05-05 21:42:51] INFO     All 3 charts generated.
+[2026-05-05 21:42:51] INFO     Building PDF report ...
+[2026-05-05 21:42:54] ERROR    Pipeline aborted: 'latin-1' codec can't encode character '\u2014' in position 258: ordinal not in range(256)

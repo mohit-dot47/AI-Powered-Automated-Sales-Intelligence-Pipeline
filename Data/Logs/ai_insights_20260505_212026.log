@@ -1,0 +1,13 @@
+[2026-05-05 21:20:26] INFO     Starting AI Insights Pipeline.
+[2026-05-05 21:20:26] INFO     Loading KPI datasets from: C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Data\Processed
+[2026-05-05 21:20:26] DEBUG    Loaded 'executive_summary' (1 rows, 8 cols)
+[2026-05-05 21:20:26] DEBUG    Loaded 'monthly_revenue' (1 rows, 4 cols)
+[2026-05-05 21:20:26] DEBUG    Loaded 'category_performance' (9 rows, 5 cols)
+[2026-05-05 21:20:26] DEBUG    Loaded 'top_products' (10 rows, 4 cols)
+[2026-05-05 21:20:26] DEBUG    Loaded 'state_performance' (48 rows, 5 cols)
+[2026-05-05 21:20:26] DEBUG    Loaded 'customer_segments' (2 rows, 5 cols)
+[2026-05-05 21:20:26] INFO     All KPI datasets loaded successfully.
+[2026-05-05 21:20:26] INFO     Calling Groq API (model=llama-3.3-70b-versatile, temperature=0.4)...
+[2026-05-05 21:20:29] INFO     Groq response received in 2.92s
+[2026-05-05 21:20:29] INFO     Report saved → C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Reports\AI_Insights\executive_ai_insights.txt
+[2026-05-05 21:20:29] INFO     Pipeline complete. Report generated: C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Reports\AI_Insights\executive_ai_insights.txt

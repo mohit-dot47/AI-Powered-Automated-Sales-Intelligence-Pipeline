@@ -1,0 +1,42 @@
+[2026-05-06 14:16:01] INFO     Starting KPI automation pipeline...
+[2026-05-06 14:16:01] INFO     Export path: C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Data\Processed
+[2026-05-06 14:16:01] INFO     Exporting 'executive_summary'...
+[2026-05-06 14:16:06] INFO       executive_summary            1 rows → executive_summary.csv
+[2026-05-06 14:16:06] INFO     Exporting 'monthly_revenue'...
+[2026-05-06 14:16:08] INFO       monthly_revenue              1 rows → monthly_revenue.csv
+[2026-05-06 14:16:08] INFO     Exporting 'category_performance'...
+[2026-05-06 14:16:11] INFO       category_performance         9 rows → category_performance.csv
+[2026-05-06 14:16:11] INFO     Exporting 'top_products'...
+[2026-05-06 14:16:14] INFO       top_products                10 rows → top_products.csv
+[2026-05-06 14:16:14] INFO     Exporting 'state_performance'...
+[2026-05-06 14:16:18] INFO       state_performance           48 rows → state_performance.csv
+[2026-05-06 14:16:18] INFO     Exporting 'customer_segments'...
+[2026-05-06 14:16:21] INFO       customer_segments            2 rows → customer_segments.csv
+[2026-05-06 14:16:21] INFO     Exporting 'cancellation_analysis'...
+[2026-05-06 14:16:23] INFO       cancellation_analysis       13 rows → cancellation_analysis.csv
+[2026-05-06 14:16:23] INFO     Exporting 'top_cities'...
+[2026-05-06 14:16:26] INFO       top_cities                  10 rows → top_cities.csv
+[2026-05-06 14:16:26] INFO     Exporting 'courier_performance'...
+[2026-05-06 14:16:28] INFO       courier_performance          4 rows → courier_performance.csv
+[2026-05-06 14:16:28] INFO     Exporting 'fulfillment_performance'...
+[2026-05-06 14:16:31] INFO       fulfillment_performance      2 rows → fulfillment_performance.csv
+[2026-05-06 14:16:31] INFO     Exporting 'sales_channel_performance'...
+[2026-05-06 14:16:33] INFO       sales_channel_performance    1 rows → sales_channel_performance.csv
+[2026-05-06 14:16:33] INFO     
+──────────────────────────────────────────────────────────────────────
+[2026-05-06 14:16:33] INFO     KPI PIPELINE EXPORT SUMMARY
+[2026-05-06 14:16:33] INFO     ──────────────────────────────────────────────────────────────────────
+[2026-05-06 14:16:33] INFO     executive_summary         ✓ OK     1      4.587s
+[2026-05-06 14:16:33] INFO     monthly_revenue           ✓ OK     1      2.015s
+[2026-05-06 14:16:33] INFO     category_performance      ✓ OK     9      2.911s
+[2026-05-06 14:16:33] INFO     top_products              ✓ OK     10     3.630s
+[2026-05-06 14:16:33] INFO     state_performance         ✓ OK     48     3.305s
+[2026-05-06 14:16:33] INFO     customer_segments         ✓ OK     2      3.438s
+[2026-05-06 14:16:33] INFO     cancellation_analysis     ✓ OK     13     2.077s
+[2026-05-06 14:16:33] INFO     top_cities                ✓ OK     10     2.651s
+[2026-05-06 14:16:33] INFO     courier_performance       ✓ OK     4      2.562s
+[2026-05-06 14:16:33] INFO     fulfillment_performance   ✓ OK     2      2.755s
+[2026-05-06 14:16:33] INFO     sales_channel_performance ✓ OK     1      1.968s
+[2026-05-06 14:16:33] INFO     ──────────────────────────────────────────────────────────────────────
+[2026-05-06 14:16:33] INFO     11/11 exports successful | Total Time: 31.91s
+[2026-05-06 14:16:33] INFO     ──────────────────────────────────────────────────────────────────────

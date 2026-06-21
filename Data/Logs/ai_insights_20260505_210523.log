@@ -1,0 +1,12 @@
+[2026-05-05 21:05:23] INFO     Starting AI Insights Pipeline.
+[2026-05-05 21:05:23] INFO     Loading KPI datasets from: C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Data\Processed
+[2026-05-05 21:05:24] DEBUG    Loaded 'executive_summary'  (1 rows, 8 cols)
+[2026-05-05 21:05:24] DEBUG    Loaded 'monthly_revenue'  (1 rows, 4 cols)
+[2026-05-05 21:05:24] DEBUG    Loaded 'category_performance'  (9 rows, 5 cols)
+[2026-05-05 21:05:24] DEBUG    Loaded 'top_products'  (10 rows, 4 cols)
+[2026-05-05 21:05:24] DEBUG    Loaded 'state_performance'  (48 rows, 5 cols)
+[2026-05-05 21:05:24] DEBUG    Loaded 'customer_segments'  (2 rows, 5 cols)
+[2026-05-05 21:05:24] INFO     All 6 KPI datasets loaded successfully.
+[2026-05-05 21:05:24] DEBUG    Prompt length: 7474 characters.
+[2026-05-05 21:05:24] INFO     Calling OpenAI API  (model=gpt-4o-mini, temperature=0.4) ...
+[2026-05-05 21:05:27] ERROR    OpenAI API error: Error code: 401 - {'error': {'message': 'Incorrect API key provided: gsk_ub1u********************************************ZlQN. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}

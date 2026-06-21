@@ -1,0 +1,27 @@
+[2026-05-06 14:36:35] INFO     Starting Executive Report Generation Pipeline.
+[2026-05-06 14:36:35] INFO     Loading data ...
+[2026-05-06 14:36:35] DEBUG    Loaded monthly_revenue (4 rows)
+[2026-05-06 14:36:35] DEBUG    Loaded category_performance (9 rows)
+[2026-05-06 14:36:35] DEBUG    Loaded state_performance (48 rows)
+[2026-05-06 14:36:35] DEBUG    Loaded top_products (10 rows)
+[2026-05-06 14:36:35] DEBUG    monthly_revenue columns  : ['order_month', 'monthly_revenue']
+[2026-05-06 14:36:35] DEBUG    category_performance cols: ['category', 'total_orders', 'units_sold', 'total_revenue', 'revenue_share_pct']
+[2026-05-06 14:36:35] DEBUG    state_performance cols   : ['state', 'total_orders', 'total_revenue', 'avg_order_value', 'revenue_share_pct']
+[2026-05-06 14:36:35] DEBUG    top_products columns     : ['sku', 'units_sold', 'total_revenue', 'avg_unit_price']
+[2026-05-06 14:36:35] DEBUG    monthly_revenue sample   :
+  order_month  monthly_revenue
+0     2022-03        101683.85
+1     2022-04      28838708.32
+2     2022-05      26226476.75
+[2026-05-06 14:36:35] INFO     Generating charts ...
+[2026-05-06 14:36:35] DEBUG    Parsed order_month with format: %Y-%m
+[2026-05-06 14:36:37] DEBUG    Chart saved -> C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Reports\Final_Reports\charts\monthly_revenue.png
+[2026-05-06 14:36:37] INFO     Monthly revenue chart generated with 4 data points.
+[2026-05-06 14:36:38] DEBUG    Chart saved -> C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Reports\Final_Reports\charts\category_performance.png
+[2026-05-06 14:36:38] DEBUG    Chart saved -> C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Reports\Final_Reports\charts\state_performance.png
+[2026-05-06 14:36:38] INFO     All 3 charts generated.
+[2026-05-06 14:36:38] INFO     Building PDF report ...
+[2026-05-06 14:36:49] DEBUG    top_products column mapping: {'product': 'sku', 'category': None, 'revenue': 'total_revenue', 'units': 'units_sold', 'price': 'avg_unit_price'}
+[2026-05-06 14:36:49] INFO     PDF saved -> C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Reports\Final_Reports\executive_sales_report.pdf
+[2026-05-06 14:36:49] INFO     Report generation complete in 13.74s.
+[2026-05-06 14:36:49] INFO     Output -> C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Reports\Final_Reports\executive_sales_report.pdf

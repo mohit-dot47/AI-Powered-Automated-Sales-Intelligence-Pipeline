@@ -1,0 +1,12 @@
+[2026-05-05 21:09:39] INFO     Starting AI Insights Pipeline.
+[2026-05-05 21:09:40] INFO     Loading KPI datasets from: C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Data\Processed
+[2026-05-05 21:09:40] DEBUG    Loaded 'executive_summary'  (1 rows, 8 cols)
+[2026-05-05 21:09:40] DEBUG    Loaded 'monthly_revenue'  (1 rows, 4 cols)
+[2026-05-05 21:09:40] DEBUG    Loaded 'category_performance'  (9 rows, 5 cols)
+[2026-05-05 21:09:40] DEBUG    Loaded 'top_products'  (10 rows, 4 cols)
+[2026-05-05 21:09:40] DEBUG    Loaded 'state_performance'  (48 rows, 5 cols)
+[2026-05-05 21:09:40] DEBUG    Loaded 'customer_segments'  (2 rows, 5 cols)
+[2026-05-05 21:09:40] INFO     All 6 KPI datasets loaded successfully.
+[2026-05-05 21:09:40] DEBUG    Prompt length: 7474 characters.
+[2026-05-05 21:09:40] INFO     Calling OpenAI API  (model=gpt-4o-mini, temperature=0.4) ...
+[2026-05-05 21:09:46] ERROR    OpenAI API error: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}

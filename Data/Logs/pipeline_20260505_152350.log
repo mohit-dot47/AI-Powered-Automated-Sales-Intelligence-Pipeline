@@ -1,0 +1,43 @@
+[2026-05-05 15:23:50] INFO     Starting Data Cleaning Pipeline
+[2026-05-05 15:23:50] INFO     BASE_DIR: C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline
+[2026-05-05 15:23:50] INFO     RAW_PATH: C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Data\Raw
+[2026-05-05 15:23:50] INFO     CLEAN_PATH: C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Data\Cleaned
+[2026-05-05 15:23:50] INFO     Processing 'amazon_sales' (Amazon Sale Report.csv)
+[2026-05-05 15:23:50] INFO     Large file (65.7 MB) — reading in chunks.
+[2026-05-05 15:23:50] INFO     Loaded 128975 rows, 24 columns
+[2026-05-05 15:23:51] DEBUG    Parsed 'date' as datetime.
+[2026-05-05 15:23:55] INFO     Saved cleaned file → C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Data\Cleaned\amazon_sales_cleaned.csv
+[2026-05-05 15:23:55] INFO     Processing 'international_sales' (International sale Report.csv)
+[2026-05-05 15:23:56] INFO     Loaded 37432 rows, 10 columns
+[2026-05-05 15:23:56] DEBUG    Parsed 'date' as datetime.
+[2026-05-05 15:23:56] INFO     Saved cleaned file → C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Data\Cleaned\international_sales_cleaned.csv
+[2026-05-05 15:23:56] INFO     Processing 'may_sales' (May-2022.csv)
+[2026-05-05 15:23:56] INFO     Loaded 1330 rows, 17 columns
+[2026-05-05 15:23:56] INFO     Saved cleaned file → C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Data\Cleaned\may_sales_cleaned.csv
+[2026-05-05 15:23:56] INFO     Processing 'pnl' (pnl_report.csv)
+[2026-05-05 15:23:56] INFO     Loaded 1330 rows, 18 columns
+[2026-05-05 15:23:56] INFO     Saved cleaned file → C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Data\Cleaned\pnl_cleaned.csv
+[2026-05-05 15:23:56] INFO     Processing 'sale_report' (Sale Report.csv)
+[2026-05-05 15:23:56] INFO     Loaded 9271 rows, 7 columns
+[2026-05-05 15:23:56] INFO     Saved cleaned file → C:\Users\MOHIT\data science\AI-Powered Automated Sales Intelligence Pipeline\Data\Cleaned\sale_report_cleaned.csv
+[2026-05-05 15:23:56] INFO     
+──────────────────────────────────────────────────────────────────────
+[2026-05-05 15:23:56] INFO     PIPELINE SUMMARY
+[2026-05-05 15:23:56] INFO     ──────────────────────────────────────────────────────────────────────
+[2026-05-05 15:23:56] INFO     amazon_sales              ✓ SUCCESS
+[2026-05-05 15:23:56] INFO     Rows: 128975 → 128975 | Duplicates Removed: 0 | Empty Rows Removed: 0
+[2026-05-05 15:23:56] INFO     Null fills: {'courier_status': 6872, 'currency': 7795, 'shipcity': 33, 'shipstate': 33, 'shipcountry': 33, 'promotionids': 49153, 'fulfilledby': 89698, 'unnamed_22': 49050, 'amount': 7795, 'shippostalcode': 33}
+[2026-05-05 15:23:56] INFO     international_sales       ✓ SUCCESS
+[2026-05-05 15:23:56] INFO     Rows: 37432 → 37432 | Duplicates Removed: 0 | Empty Rows Removed: 0
+[2026-05-05 15:23:56] INFO     Null fills: {'months': 25, 'customer': 1040, 'style': 1040, 'sku': 2474, 'size': 1040, 'pcs': 1040, 'rate': 1040, 'gross_amt': 1040}
+[2026-05-05 15:23:56] INFO     may_sales                 ✓ SUCCESS
+[2026-05-05 15:23:56] INFO     Rows: 1330 → 1330 | Duplicates Removed: 0 | Empty Rows Removed: 0
+[2026-05-05 15:23:56] INFO     pnl                       ✓ SUCCESS
+[2026-05-05 15:23:56] INFO     Rows: 1330 → 1330 | Duplicates Removed: 0 | Empty Rows Removed: 0
+[2026-05-05 15:23:56] INFO     sale_report               ✓ SUCCESS
+[2026-05-05 15:23:56] INFO     Rows: 9271 → 9271 | Duplicates Removed: 0 | Empty Rows Removed: 0
+[2026-05-05 15:23:56] INFO     Null fills: {'sku_code': 83, 'design_no': 36, 'category': 45, 'size': 36, 'color': 45, 'stock': 36}
+[2026-05-05 15:23:56] INFO     ──────────────────────────────────────────────────────────────────────
+[2026-05-05 15:23:56] INFO     5 / 5 files cleaned successfully.
+[2026-05-05 15:23:56] INFO     ──────────────────────────────────────────────────────────────────────
+[2026-05-05 15:23:56] INFO     Data cleaning pipeline completed.
