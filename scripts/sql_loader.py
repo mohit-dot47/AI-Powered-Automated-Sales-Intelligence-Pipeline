@@ -5,11 +5,11 @@ from pathlib import Path
 # -----------------------------
 # Database Config
 # -----------------------------
-DB_USER = "root"
-DB_PASSWORD = "root123"
-DB_HOST = "localhost"
-DB_PORT = "3306"
-DB_NAME = "ai_sales_analytics"
+DB_USER = ""
+DB_PASSWORD = ""
+DB_HOST = ""
+DB_PORT = ""
+DB_NAME = ""
 
 # -----------------------------
 # MySQL Engine
