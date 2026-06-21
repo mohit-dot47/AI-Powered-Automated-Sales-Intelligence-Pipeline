@@ -1,0 +1,7 @@
+﻿pandas
+matplotlib
+fpdf
+sqlalchemy
+pymysql
+python-dotenv
+groq
